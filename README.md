@@ -1,9 +1,9 @@
 
-This is an addition to the above paper as part of our course project for Artificial Intelligence and Machine Learning (CS217 & CS240), you can add a dataset of your choice through the following choice and reproduce the results.
+This is an addition to the paper([*Re-thinking Model Inversion Attack paper Against Deep Neural Networks*](https://arxiv.org/pdf/2304.01669.pdf) as part of our course project for Artificial Intelligence and Machine Learning (CS217 & CS240), you can add a dataset of your choice through the following choice and reproduce the results.
 
 ## Our Contribution
 
-We benchmarked and created a visualization pipeline for the following four variants of Model Inversion Attacks:
+We benchmarked on additional Datasets and created a visualization pipeline for the following four variants of Model Inversion Attacks:
 - Softmax loss (as proposed in the basic GMI framework)
 - Softmax loss with model augmentation
 - Logit loss
