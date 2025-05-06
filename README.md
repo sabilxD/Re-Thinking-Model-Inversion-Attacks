@@ -1,11 +1,20 @@
-# Implementation of paper "Re-thinking Model Inversion Attacks Against Deep Neural Networks" - CVPR 2023
-[Paper](https://arxiv.org/pdf/2304.01669.pdf) | [Project page](https://ngoc-nguyen-0.github.io/re-thinking_model_inversion_attacks/)
 
-This is an addition to the above paper as part of our course project for Artificial Intelligence and Machine Learning (CS217), you can add a dataset of your choice through the following choice and reproduce the results.
-To see our final results you can run
+This is an addition to the above paper as part of our course project for Artificial Intelligence and Machine Learning (CS217 & CS240), you can add a dataset of your choice through the following choice and reproduce the results.
+
+## Our Contribution
+
+We benchmarked and created a visualization pipeline for the following four variants of Model Inversion Attacks:
+- Softmax loss (as proposed in the basic GMI framework)
+- Softmax loss with model augmentation
+- Logit loss
+- Logit loss with model augmentation (as proposed in the Re-thinking Model Inversion Attack paper Against Deep Neural Networks)
+
 ```
 streamlit run app.py --server.address 0.0.0.0 --server.port 8510
 ```
+
+[Paper](https://arxiv.org/pdf/2304.01669.pdf) | [Project page](https://ngoc-nguyen-0.github.io/re-thinking_model_inversion_attacks/)
+
 ## 1. Setup Environment
 This code has been tested with Python 3.7, PyTorch 1.11.0 and Cuda 11.3. 
 
