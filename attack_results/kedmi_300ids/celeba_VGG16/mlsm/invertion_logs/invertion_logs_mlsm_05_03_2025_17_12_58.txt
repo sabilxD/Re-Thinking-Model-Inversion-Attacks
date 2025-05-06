@@ -1,0 +1,12 @@
+path_G ./checkpoints/GAN/celeba/VGG16/improved_celeba_G.tar
+path_D ./checkpoints/GAN/celeba/VGG16/improved_celeba_D.tar
+Load classifier VGG16 at ./checkpoints/target_model/target_ckp/VGG16_88.26.tar
+--------------------- Attack batch [0]------------------------------
+Iden:tensor([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+        18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35,
+        36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55, 56, 57, 58, 59])
+kedmi
+criterion:mlsm
+Iteration:300	Prior Loss:4.71	Iden Loss:1.42	Attack Acc:0.00
+Iteration:600	Prior Loss:3.81	Iden Loss:1.23	Attack Acc:0.00

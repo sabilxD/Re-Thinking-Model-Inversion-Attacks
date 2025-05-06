@@ -1,0 +1,3 @@
+path_G ./checkpoints/GAN/celeba/VGG16/improved_celeba_G.tar
+path_D ./checkpoints/GAN/celeba/VGG16/improved_celeba_D.tar
+Load classifier VGG16 at ./checkpoints/target_model/target_ckp/VGG16_88.26.tar

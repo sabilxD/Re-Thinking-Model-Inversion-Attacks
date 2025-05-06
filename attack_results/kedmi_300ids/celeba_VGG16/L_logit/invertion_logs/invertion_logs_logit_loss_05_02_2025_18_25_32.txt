@@ -1,0 +1,82 @@
+path_G ./checkpoints/GAN/celeba/VGG16/improved_celeba_G.tar
+path_D ./checkpoints/GAN/celeba/VGG16/improved_celeba_D.tar
+Load classifier VGG16 at ./checkpoints/target_model/target_ckp/VGG16_88.26.tar
+--------------------- Attack batch [0]------------------------------
+Iden:tensor([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+        18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35,
+        36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55, 56, 57, 58, 59])
+kedmi
+criterion:logit_loss
+Iteration:300	Prior Loss:4.52	Iden Loss:-15.33	Attack Acc:38.33
+Iteration:600	Prior Loss:3.51	Iden Loss:-19.73	Attack Acc:75.00
+Iteration:900	Prior Loss:2.94	Iden Loss:-22.87	Attack Acc:78.33
+Iteration:1200	Prior Loss:2.73	Iden Loss:-24.77	Attack Acc:81.67
+Iteration:1500	Prior Loss:2.79	Iden Loss:-25.72	Attack Acc:83.33
+Iteration:1800	Prior Loss:2.60	Iden Loss:-26.26	Attack Acc:80.00
+Iteration:2100	Prior Loss:2.66	Iden Loss:-26.49	Attack Acc:81.67
+Iteration:2400	Prior Loss:2.64	Iden Loss:-26.63	Attack Acc:85.00
+--------------------- Attack batch [1]------------------------------
+Iden:tensor([ 60,  61,  62,  63,  64,  65,  66,  67,  68,  69,  70,  71,  72,  73,
+         74,  75,  76,  77,  78,  79,  80,  81,  82,  83,  84,  85,  86,  87,
+         88,  89,  90,  91,  92,  93,  94,  95,  96,  97,  98,  99, 100, 101,
+        102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115,
+        116, 117, 118, 119])
+kedmi
+criterion:logit_loss
+Iteration:300	Prior Loss:4.13	Iden Loss:-15.88	Attack Acc:45.00
+Iteration:600	Prior Loss:3.16	Iden Loss:-20.58	Attack Acc:83.33
+Iteration:900	Prior Loss:2.74	Iden Loss:-23.66	Attack Acc:90.00
+Iteration:1200	Prior Loss:2.45	Iden Loss:-25.47	Attack Acc:90.00
+Iteration:1500	Prior Loss:2.54	Iden Loss:-26.55	Attack Acc:91.67
+Iteration:1800	Prior Loss:2.47	Iden Loss:-27.00	Attack Acc:90.00
+Iteration:2100	Prior Loss:2.44	Iden Loss:-27.28	Attack Acc:91.67
+Iteration:2400	Prior Loss:2.46	Iden Loss:-27.42	Attack Acc:93.33
+--------------------- Attack batch [2]------------------------------
+Iden:tensor([120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133,
+        134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147,
+        148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161,
+        162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175,
+        176, 177, 178, 179])
+kedmi
+criterion:logit_loss
+Iteration:300	Prior Loss:4.63	Iden Loss:-14.47	Attack Acc:46.67
+Iteration:600	Prior Loss:3.48	Iden Loss:-19.43	Attack Acc:78.33
+Iteration:900	Prior Loss:3.16	Iden Loss:-22.40	Attack Acc:85.00
+Iteration:1200	Prior Loss:2.74	Iden Loss:-24.26	Attack Acc:86.67
+Iteration:1500	Prior Loss:2.87	Iden Loss:-25.37	Attack Acc:88.33
+Iteration:1800	Prior Loss:2.92	Iden Loss:-25.96	Attack Acc:91.67
+Iteration:2100	Prior Loss:2.90	Iden Loss:-26.24	Attack Acc:86.67
+Iteration:2400	Prior Loss:2.83	Iden Loss:-26.46	Attack Acc:88.33
+--------------------- Attack batch [3]------------------------------
+Iden:tensor([180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193,
+        194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207,
+        208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221,
+        222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235,
+        236, 237, 238, 239])
+kedmi
+criterion:logit_loss
+Iteration:300	Prior Loss:4.61	Iden Loss:-14.63	Attack Acc:46.67
+Iteration:600	Prior Loss:3.96	Iden Loss:-19.48	Attack Acc:75.00
+Iteration:900	Prior Loss:3.42	Iden Loss:-22.84	Attack Acc:81.67
+Iteration:1200	Prior Loss:3.23	Iden Loss:-24.74	Attack Acc:86.67
+Iteration:1500	Prior Loss:3.11	Iden Loss:-25.82	Attack Acc:86.67
+Iteration:1800	Prior Loss:3.14	Iden Loss:-26.29	Attack Acc:90.00
+Iteration:2100	Prior Loss:3.08	Iden Loss:-26.56	Attack Acc:90.00
+Iteration:2400	Prior Loss:3.11	Iden Loss:-26.72	Attack Acc:91.67
+--------------------- Attack batch [4]------------------------------
+Iden:tensor([240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253,
+        254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267,
+        268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281,
+        282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295,
+        296, 297, 298, 299])
+kedmi
+criterion:logit_loss
+Iteration:300	Prior Loss:4.16	Iden Loss:-15.23	Attack Acc:46.67
+Iteration:600	Prior Loss:3.03	Iden Loss:-20.13	Attack Acc:85.00
+Iteration:900	Prior Loss:2.87	Iden Loss:-22.96	Attack Acc:90.00
+Iteration:1200	Prior Loss:2.66	Iden Loss:-25.21	Attack Acc:90.00
+Iteration:1500	Prior Loss:2.78	Iden Loss:-26.33	Attack Acc:91.67
+Iteration:1800	Prior Loss:2.68	Iden Loss:-26.83	Attack Acc:88.33
+Iteration:2100	Prior Loss:2.74	Iden Loss:-27.16	Attack Acc:88.33
+Iteration:2400	Prior Loss:2.85	Iden Loss:-27.36	Attack Acc:88.33

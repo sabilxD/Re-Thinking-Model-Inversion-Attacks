@@ -1,0 +1,2 @@
+Save_dir,Method,Succesful_samples,acc,std,acc5,std5,fid,knn
+./attack_results/kedmi_300ids/celeba_VGG16/ours/latent,kedmi,ours,88.07,1.73,98.67,0.70,34.76,1163.80
