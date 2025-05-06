@@ -1,5 +1,6 @@
 # Implementation of paper "Re-thinking Model Inversion Attacks Against Deep Neural Networks" - CVPR 2023
 [Paper](https://arxiv.org/pdf/2304.01669.pdf) | [Project page](https://ngoc-nguyen-0.github.io/re-thinking_model_inversion_attacks/)
+
 This is an addition to the above paper as part of our course project for Artificial Intelligence and Machine Learning (CS217), you can add a dataset of your choice through the following choice and reproduce the results.
 To see our final results you can run
 ```
