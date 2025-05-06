@@ -1,5 +1,5 @@
 
-This is an addition to the paper([*Re-thinking Model Inversion Attack paper Against Deep Neural Networks*](https://arxiv.org/pdf/2304.01669.pdf) as part of our course project for Artificial Intelligence and Machine Learning (CS217 & CS240), you can add a dataset of your choice through the following choice and reproduce the results.
+This is an addition to the paper [*Re-thinking Model Inversion Attack paper Against Deep Neural Networks*](https://arxiv.org/pdf/2304.01669.pdf) as part of our course project for Artificial Intelligence and Machine Learning (CS217 & CS240), you can add a dataset of your choice through the following choice and reproduce the results.
 
 ## Our Contribution
 
